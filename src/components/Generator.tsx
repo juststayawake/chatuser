@@ -288,19 +288,6 @@ export default () => {
       </Show>
 
       <Show when={isLogin()}>
-<!--         <div onClick={randQuestion}>
-          <span class="mt-2 inline-flex items-center justify-center gap-1 text-sm  bg-slate/20 px-2 py-1 rounded-md transition-colors cursor-pointer hover:bg-slate/50">
-            <IconRand />
-            <span>随便问问</span>
-          </span>
-        </div> -->
-<!--         <SystemRoleSettings
-          canEdit={() => messageList().length === 0}
-          systemRoleEditing={systemRoleEditing}
-          setSystemRoleEditing={setSystemRoleEditing}
-          currentSystemRoleSettings={currentSystemRoleSettings}
-          setCurrentSystemRoleSettings={setCurrentSystemRoleSettings}
-        /> -->
 
         <Index each={messageList()}>
           {(message, index) => (
