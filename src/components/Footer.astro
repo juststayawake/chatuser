@@ -2,13 +2,15 @@
   <p mt-8 text-xs>
     <div class="mt-2 text-xs text-gray-500 dark:text-gray-400">
       {
-        import.meta.env.NOTICE_MESSAGE ? (
+        import.meta.env.NOTICE_MESSAGE
+          ? (
           <Fragment set:html={import.meta.env.NOTICE_MESSAGE} />
-        ) : null
+            )
+          : null
       }
     </div>
     <div class="text-xs op-30 mt-2">
-      <a
+{/*      <a
         border-b
         border-slate
         border-none
@@ -16,7 +18,18 @@
         href="https://github.com/ninvfeng/chatgpt"
         target="_blank"
       >
-        Github源码
+        Github
+      </a>
+      <span px-1>|</span> */}
+      <a
+        border-b
+        border-slate
+        border-none
+        hover:border-dashed
+        href="https://www.baozao365.com/"
+        target="_blank"
+      >
+      暴躁365首页
       </a>
       <span px-1>|</span>
       <a
@@ -24,10 +37,8 @@
         border-slate
         border-none
         hover:border-dashed
-        href="https://t.me/useaiapp"
-        target="_blank"
       >
-        Telegram
+      客服QQ 2260774417
       </a>
       <span px-1>|</span>
       <a
@@ -35,10 +46,10 @@
         border-slate
         border-none
         hover:border-dashed
-        href="https://platform.openai.com/docs/guides/chat"
+        href="https://nx1zg026aea.feishu.cn/docx/WklydNVT8ojTTKxHZ1FcJ7ufnpJ"
         target="_blank"
       >
-        基于OpenAI接口
+      使用技巧&教程（密码4BN9）
       </a>
     </div>
   </p>
